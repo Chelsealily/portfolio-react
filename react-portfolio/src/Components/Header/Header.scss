@@ -1,0 +1,15 @@
+.header{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width:95vw;
+
+&__text {
+    width: 59vw;
+}    
+
+&__pic{
+    width: 35vw;
+}
+
+}
