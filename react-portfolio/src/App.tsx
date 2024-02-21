@@ -7,6 +7,8 @@ import ScrollToTop from 'react-scroll-to-top'
 import Header from './Components/Header/Header'
 import Skills from './Components/Skills/Skills'
 import Footer from './Components/Footer/Footer'
+import Cyber from './Components/Cyber/Cyber'
+import wave from "./Images/wave.png"
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
     <section className='skills-section'>
     <Skills/>
     </section>
+    <Cyber/>
+    <img src={wave} alt="wave" className='wave'></img>
     <Footer/>
     <ScrollToTop smooth />
       </BrowserRouter>
