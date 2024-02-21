@@ -18,9 +18,9 @@ const Nav = () => {
           Projects 
         </Link>
   
-        <Link className="nav__item--contact" to="/contact">
+        <a href="#footer" className="nav__item--contact">
           Get in touch
-        </Link>
+        </a>
       </div>
     );
   };
