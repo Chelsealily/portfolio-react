@@ -14,10 +14,6 @@ const Nav = () => {
           About
         </Link>
   
-        <Link className="nav__item" to="/skills">
-          Skills
-        </Link>
-  
         <Link className="nav__item" to="/projects">
           Projects 
         </Link>

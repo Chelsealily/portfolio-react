@@ -10,4 +10,13 @@ $primary-color: #F5F3E8;
 $color-secondary: #747a8e;
 $color-secondary-light: lighten($color-secondary, 20%);
 $color-secondary-dark: darken($color-secondary, 20%);
-$color-highlight: #8C52FF;
+$color-highlight: #FF8686;
+$color-pink:#ECC9F2;
+
+h3{
+    font-size: 2.2rem;
+    background-color: $primary-color;
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: 400;
+}

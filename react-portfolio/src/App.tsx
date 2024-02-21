@@ -5,6 +5,7 @@ import Nav from './Components/Nav/Nav'
 import logo from "./Images/logo.png"
 import ScrollToTop from 'react-scroll-to-top'
 import Header from './Components/Header/Header'
+import Skills from './Components/Skills/Skills'
 
 function App() {
 
@@ -17,7 +18,9 @@ function App() {
     </section>
     <Nav/>
     <Header/>
-    
+    <section className='skills-section'>
+    <Skills/>
+    </section>
     <ScrollToTop smooth />
       </BrowserRouter>
     </>
