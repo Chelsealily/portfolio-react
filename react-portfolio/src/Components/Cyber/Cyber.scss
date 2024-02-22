@@ -1,14 +1,15 @@
 @use "../../styles/variables" as *;
 
 .cyber {
-    padding-left: 6rem;
-    padding-top: 30px;
+    padding-left: 22rem;
+    padding-top: 10px;
     width: 90vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 9rem;
+    padding-bottom: 12rem;
     justify-content: flex-start;
+    gap:1rem;
 
   &__pic {
     width: 10vw;
@@ -21,6 +22,10 @@
   .cyber__pic--desc {
     width:20vw;
     text-align: center;
+    border: 2px solid cadetblue;
+    padding: 15px;
+    border-radius: 5%;
+
   }
 
 
