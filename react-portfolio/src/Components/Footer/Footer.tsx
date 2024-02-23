@@ -1,14 +1,12 @@
 import "../Footer/Footer.scss"
 import logoGithub from "../../Images/bottom.svg"
 import logoLi from "../../Images/Group 60.svg"
-import wave from "../../Images/wave.svg"
 
 const Footer = () => {
     return (
 
         <section className="footer" id="footer">
-          <div>
-            <img src={wave} alt="wave" className='wave'></img>
+          <div >
             </div>
             <div className="footerlogos">
         <a href="https://github.com/Chelsealily" target="_blank">

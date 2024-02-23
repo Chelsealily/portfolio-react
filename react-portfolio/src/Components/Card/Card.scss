@@ -1,0 +1,49 @@
+@use "../../styles/variables" as *;
+
+.card {
+    width: 28vw;
+    box-shadow: 5px 5px 10px #888888;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    padding-top: 20px;
+    color: $color-black;
+    border-radius: 10%;
+    padding: 15px;
+  }
+  
+  .card__pic {
+    width: 27vw;
+    border-radius: 15%;
+  }
+  
+  h1 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+  }
+
+  a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  
+
+  @media screen and (max-width: 765px) {
+    .card {
+      width: 35vw;
+      height:360px;
+
+    &__pic {
+      width:33vw;
+    }
+    }
+  } 

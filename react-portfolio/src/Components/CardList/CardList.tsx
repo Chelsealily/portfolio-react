@@ -14,7 +14,7 @@ const CardList = ({projects}:CardListProps) => {
         <Link key={project.id} to={`/project/${project.id}`}>
       <Card key={project.id} project={project}/>
        </Link>
-  ))};
+  ))}
   </div>
 );
 };

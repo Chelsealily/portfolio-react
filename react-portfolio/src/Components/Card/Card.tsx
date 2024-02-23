@@ -8,7 +8,7 @@ type CardProps = {
   const Card = ({project}: CardProps) => {
 
     const{
-      image_url, title, subtitle, code_url, preview_url
+      image_url, title, subtitle, code_url, preview_url, description
     } = project
    
     return (
@@ -17,9 +17,10 @@ type CardProps = {
         <img className="card__pic" src={image_url} alt={title+","+subtitle} />
         <h1 className="card__title">{title}</h1>
         <p className="card__subtitle">{subtitle}</p>
+        <p className="card__description">{description}</p>
         <a href={code_url} className="card__code">{"</>"}</a>
-        <a href={preview_url} className="card__prev"></a>
+        <a href={preview_url} className="card__prev">"View"</a>
         </div>
-    );
-  };
+    )
+  }
   export default Card;

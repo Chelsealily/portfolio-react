@@ -6,6 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 import About from "./Pages/About/About";
 import Homepage from "./Pages/Homepage/Homepage";
 import Footer from "./Components/Footer/Footer";
+import Project from "./Pages/Projects/Projects";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-
+          <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<Footer/>} />
         </Routes>
       </BrowserRouter>
