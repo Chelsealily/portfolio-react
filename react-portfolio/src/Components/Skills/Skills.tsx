@@ -15,7 +15,9 @@ const Skills = () => {
 <section className="skills">
         <h3 className="skills__title"> {"> Technical Skills"}</h3>
         <p className="skills__description">
-          I love learning and trying new things! Here are some of the skills I have learnt along the way.
+          I love learning and trying new things! 
+          <br></br>
+          Here are some of the skills I have learnt along the way.
         </p>
         <div className="skills__grid">
           <div>
