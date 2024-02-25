@@ -22,7 +22,7 @@ const Footer = () => {
         /></a></div>
       
       <div>
-        <p className="footer__email">📩 cpearl_li@live.com</p>
+        <p className="footer__email">✉️ Chelsea.Li@nology.io</p>
       </div>
       </section>
     )

@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Nav from "./Components/Nav/Nav";
 import logo from "./Images/logo.png";
@@ -13,10 +13,11 @@ function App() {
     <>
       <BrowserRouter>
         <section className="logo">
+          <Link to="/">
           <img
             src={logo}
             alt="Chelsea Li - tech portfolio - react website project"
-          ></img>
+          ></img></Link>
         </section>
         <Nav />
 

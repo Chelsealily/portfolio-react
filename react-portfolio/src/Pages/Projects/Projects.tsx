@@ -15,14 +15,14 @@ const Project = () => {
 
     const projects = [
         { id: 1, image_url:(Punk), title: 'Punk API', subtitle: "REACT", description:"I built and designed a Tic Tac Toe game in the style of TicTacs, you can play 2 games modes - player vs. player or player vs. compiuter", code_url:"/", preview_url:"/" },
-        { id: 2, image_url:(Tic), title: 'Tic Tac Toe', subtitle: "JAVASCRIPT", description:"I built and designed a Tic Tac Toe game in the style of TicTacs, you can play 2 games modes - player vs. player or player vs. compiuter", code_url:"/", preview_url:"/" },
+        { id: 2, image_url:(Tic), title: 'Tic Tac Toe', subtitle: "JAVASCRIPT", description:"I built and designed a Tic Tac Toe game in the style of TicTacs, you can play 2 games modes - player vs. player or player vs. computer", code_url:"/", preview_url:"/" },
         { id: 3, image_url:(Client), title: 'Client Project', subtitle: "REACT", description:"I built and designed a Tic Tac Toe game in the style of TicTacs, you can play 2 games modes - player vs. player or player vs. compiuter", code_url:"/", preview_url:"/" },
         { id: 4, image_url:(Cars), title: 'Full Stack - Cars', subtitle: "REACT, JAVA", description:"I built and designed a Tic Tac Toe game in the style of TicTacs, you can play 2 games modes - player vs. player or player vs. compiuter", code_url:"/", preview_url:"/" },
-        { id: 5, image_url:(Hangman), title: 'Hangman', subtitle: "JAVA", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
+        { id: 8, image_url:(Tick), title: 'Ticket Tracker', subtitle: "REACT", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
         { id: 6, image_url:(Pokemon), title: 'Pokemon', subtitle: "JAVASCRIPT", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
         { id: 7, image_url:(Todo), title: 'To do List', subtitle: "REACT", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
-        { id: 8, image_url:(Tick), title: 'Ticket Tracker', subtitle: "REACT", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
-        { id: 9, image_url:(Calc), title: 'Calculator', subtitle: "JAVASCRIPT", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
+        { id: 8, image_url:(Hangman), title: 'Hangman', subtitle: "JAVA", description:"This was my first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
+        { id: 9, image_url:(Calc), title: 'Calculator', subtitle: "JAVASCRIPT", description:"My first ever project using JavaScript/TypeScript. I created a functioning calculator with 3 easter eggs on values Infinity, 22 and 69.", code_url:"/", preview_url:"/" },
     ];
 
 return (

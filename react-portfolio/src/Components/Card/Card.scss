@@ -22,6 +22,24 @@
     border: 10px solid cadetblue;
   }
 
+  .card__logos{
+    display: flex;
+    gap: 55px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .card__code{
+    background-color: rgb(186, 238, 240);
+    padding: 10px;
+    border-radius: 15%;
+  }
+
+  .card__prev{
+    background-color: rgb(186, 238, 240);
+    padding: 10px;
+    border-radius: 15%;
+  }
   
   h1 {
     font-size: 1.3rem;
