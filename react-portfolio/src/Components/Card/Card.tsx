@@ -15,8 +15,7 @@ type CardProps = {
       
       <div className="card">
         <img className="card__pic" src={image_url} alt={title+","+subtitle} />
-        <h1 className="card__title">{title}</h1>
-        <p className="card__subtitle">{subtitle}</p>
+        <h1 className="card__title">{"> " + title + " - " + subtitle}</h1>
         <p className="card__description">{description}</p>
         <a href={code_url} className="card__code">{"</>"}</a>
         <a href={preview_url} className="card__prev">"View"</a>
