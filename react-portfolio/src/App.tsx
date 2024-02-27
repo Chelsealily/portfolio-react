@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Nav from "./Components/Nav/Nav";
 import logo from "./Images/logo.png";
@@ -8,30 +8,27 @@ import Homepage from "./Pages/Homepage/Homepage";
 import Contact from "./Pages/Contact/Contact";
 import Projects from "./Pages/Projects/Projects";
 
-
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <section className="logo">
           <Link to="/">
-          <img
-            src={logo}
-            alt="Chelsea Li - tech portfolio - react website project"
-          ></img></Link>
+            <img
+              src={logo}
+              alt="Chelsea Li - tech portfolio - react website project"
+            />
+          </Link>
         </section>
         <Nav />
-
-        <ScrollToTop smooth />
-
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects/>}/>
-        
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+        <ScrollToTop smooth />
+      </Router>
     </>
   );
 }
