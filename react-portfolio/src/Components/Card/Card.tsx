@@ -13,14 +13,15 @@ type CardProps = {
    
     return (
       
-      <div className="card">
+      <section className="card">
         <img className="card__pic" src={image_url} alt={title+","+subtitle} />
         <h1 className="card__title">{"> " + title + " - " + subtitle}</h1>
         <p className="card__description">{description}</p>
-        <div className="card__logos">
-        <a href={code_url} className="card__code">{"👩‍💻 Code"}</a>
-        <a href={preview_url} className="card__prev">🔍 Preview</a>
-        </div></div>
+          <div className="card__logos">
+          <a href={code_url} className="card__code">{"👩‍💻 Code"}</a>
+          <a href={preview_url} className="card__prev">🔍 Preview</a>
+        </div>
+      </section>
     )
   }
   export default Card;

@@ -5,8 +5,9 @@ import logo from "./Images/logo.png";
 import ScrollToTop from "react-scroll-to-top";
 import About from "./Pages/About/About";
 import Homepage from "./Pages/Homepage/Homepage";
-import Project from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
+import Projects from "./Pages/Projects/Projects";
+
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Project />} />
+          <Route path="/projects" element={<Projects/>}/>
+        
           <Route path="/contact" element={<Contact/>} />
         </Routes>
       </BrowserRouter>
