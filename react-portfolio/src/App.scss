@@ -15,3 +15,9 @@
     right:1px;
     width:100vw;
 }
+
+@media screen and (max-width: 765px) {
+    img {
+      width:75vw;
+    }
+  }

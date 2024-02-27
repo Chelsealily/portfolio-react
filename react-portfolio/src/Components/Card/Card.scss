@@ -3,7 +3,7 @@
 .card {
     width: 28vw;
     box-shadow: 5px 5px 10px #888888;
-    height: 60vh;
+    height: 66vh;
     text-align: center;
     background-color: rgb(202, 202, 202);
     padding-top: 20px;
@@ -25,7 +25,7 @@
   .card__logos{
     display: flex;
     gap: 55px;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
   }
 
@@ -69,11 +69,25 @@
 
   @media screen and (max-width: 765px) {
     .card {
-      width: 35vw;
-      height:360px;
+      width: 38vw;
+      height:60vh;
+      
 
     &__pic {
-      width:33vw;
+      width:35vw;
     }
+
+    &__code, &__prev{
+      width:6vw;
+      font-size: 1.6rem;
+    }
+
+    h1{
+      font-size: 1rem;
+    }
+p {
+  font-size: 0.9rem;
+}
+    
     }
   } 

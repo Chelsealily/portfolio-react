@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *;
 
 .nav {
-  width: 100%;
+  width: 100vw;
   margin: 10px 0;
   display: flex;
   justify-content: space-around;
@@ -24,6 +24,26 @@
       text-decoration: none;
     }
   }
+}
+
+
+@media screen and (max-width: 765px) {
+  .nav{
+    width:98vw;
+    text-align: center;
+
+    &__item{
+      font-size: 1rem;
+
+      &--contact{
+        font-size: 1rem;
+      }
+
+    }
+
+  }
+
+  
 }
 
 

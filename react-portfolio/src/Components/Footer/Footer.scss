@@ -25,3 +25,14 @@
         padding-right: 25px;
     }
   }
+
+  @media screen and (max-width: 765px) {
+    
+.footer{
+      display: flex;
+      flex-direction: column;
+    
+    &__email {
+      font-size: 1.2rem;
+    }}
+  }
