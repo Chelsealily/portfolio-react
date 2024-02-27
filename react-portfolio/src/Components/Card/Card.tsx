@@ -18,8 +18,8 @@ type CardProps = {
         <h1 className="card__title">{"> " + title + " - " + subtitle}</h1>
         <p className="card__description">{description}</p>
           <div className="card__logos">
-          <a href={code_url} className="card__code">{"👩‍💻 Code"}</a>
-          <a href={preview_url} className="card__prev">🔍 Preview</a>
+          <a href={code_url} target="_blank" className="card__code">{"👩‍💻 Code"}</a>
+          <a href={preview_url} target="_blank" className="card__prev">🔍 Preview</a>
         </div>
       </section>
     )
